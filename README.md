@@ -14,8 +14,8 @@ Update customer information
 Delete a customer
 Getting Started
 
-##Clone the Repository
-git clone https://github.com/yourusername/customer-graphql-service.git
+Clone the Repository
+git clone https://github.com/nitesh401/customer-graphql-service.git
 cd customer-graphql-service
 mvn clean install
 mvn spring-boot:run
