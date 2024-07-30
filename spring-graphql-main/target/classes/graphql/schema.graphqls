@@ -1,0 +1,19 @@
+type UpdateCustomerInput {
+    id: ID,
+    firstName: String
+    lastName: String
+    email: String
+    phoneNumber: String
+}
+
+
+
+type Query{
+    getCustomers:[UpdateCustomerInput]
+    getCustomersByCategory(category:String):[UpdateCustomerInput]
+}
+
+type  Mutation{
+    updatePhoneNumbber(id:ID,phoneNumber:String):UpdateCustomerInput
+    receiveNewShipment(id:ID,quantity:Int):UpdateCustomerInput
+}
